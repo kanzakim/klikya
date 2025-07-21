@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kisah Kamu + Aku 📖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chapter" id="bab1">
+    <h2>Bab 1: Awal Bertemu 💫</h2>
+    <p class="fade-in">Saat aku pertama kali lihat kamu, jantungku ngasih tahu bahwa ini bukan sekadar pertemuan biasa.</p>
+  </div>
+
+  <div class="chapter" id="bab2">
+    <h2>Bab 2: Jadi Nyaman 🧺</h2>
+    <p class="fade-in">Kamu jadi tempat aku cerita, ketawa, bahkan nangis. Rasanya kayak pulang.</p>
+  </div>
+
+  <div class="chapter" id="bab3">
+    <h2>Bab 3: Hari-Hari Kita 📸</h2>
+    <div class="gallery">
+      <img src="foto1.jpg" alt="Momen 1" />
+      <img src="foto2.jpg" alt="Momen 2" />
+    </div>
+  </div>
+
+  <div class="chapter" id="bab4">
+    <h2>Bab 4: Doaku Untukmu 🕯️</h2>
+    <button onclick="nyalakanHarapan()">Nyalakan Lilin Harapan ✨</button>
+    <p id="harapan" class="hidden">Semoga kamu selalu dilindungi, dicintai, dan diberkahi dalam setiap langkahmu 💗</p>
+  </div>
+
+  <div class="chapter" id="bab5">
+    <h2>Bab 5: Balasanmu Untukku 💌</h2>
+    <form onsubmit="kirimBalasan(event)">
+      <textarea placeholder="Tulis pesanmu di sini..." required></textarea>
+      <button type="submit">Kirim Balasan</button>
+    </form>
+    <p id="balasan" class="hidden"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
